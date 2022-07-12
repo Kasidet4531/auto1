@@ -1,0 +1,28 @@
+{
+    "name": "Auto",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "iBIT": "github:emwta/pxt-ibit#v4.0.10",
+        "sensors": "github:gigotoys/gigo-block#42e48e853c87813ab0148b44b47b6279d797ba5e"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "pyprj",
+    "languageRestriction": "python-only"
+}
